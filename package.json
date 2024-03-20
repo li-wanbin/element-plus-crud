@@ -1,7 +1,7 @@
 {
-  "name": "@wanbin/element-plus-crud",
+  "name": "wanbin-element-plus-crud",
   "type": "module",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "一个基于element-plus二次封装的表格增删改查组件",
   "author": "wanbin",
   "license": "ISC",
@@ -11,6 +11,13 @@
   ],
   "main": "src/index.js",
   "module": "src/index.js",
+  "files": [
+    "*.js",
+    "*.json",
+    "dist/*",
+    "public/*",
+    "src/*"
+  ],
   "scripts": {
     "build": "vite build",
     "lint": "eslint .",
@@ -19,10 +26,10 @@
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
     "@vueuse/core": "^10.9.0",
-    "@wanbin/element-plus-crud": "workspace:1.0.0-alpha.1",
     "element-plus": "^2.6.1",
     "unocss": "^0.58.6",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "wanbin-element-plus-crud": "workspace:1.0.0-alpha.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.8.1",

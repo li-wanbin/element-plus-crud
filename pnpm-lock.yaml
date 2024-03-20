@@ -14,9 +14,6 @@ importers:
       '@vueuse/core':
         specifier: ^10.9.0
         version: 10.9.0(vue@3.4.21)
-      '@wanbin/element-plus-crud':
-        specifier: workspace:1.0.0-alpha.1
-        version: 'link:'
       element-plus:
         specifier: ^2.6.1
         version: 2.6.1(vue@3.4.21)
@@ -26,6 +23,9 @@ importers:
       vue:
         specifier: ^3.4.21
         version: 3.4.21(typescript@5.4.2)
+      wanbin-element-plus-crud:
+        specifier: workspace:1.0.0-alpha.1
+        version: 'link:'
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^2.8.1
