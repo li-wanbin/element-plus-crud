@@ -1,13 +1,19 @@
 {
   "name": "wanbin-element-plus-crud",
   "type": "module",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.5",
   "description": "一个基于element-plus二次封装的表格增删改查组件",
   "author": "wanbin",
   "license": "ISC",
+  "homepage": "https://github.com/li-wanbin/element-plus-crud",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/li-wanbin/element-plus-crud"
+  },
+  "bugs": "https://github.com/li-wanbin/element-plus-crud/issues",
   "keywords": [
-    "element-plus",
-    "CRUD"
+    "element-plus-crud",
+    "VUE CRUD"
   ],
   "main": "src/index.js",
   "module": "src/index.js",
@@ -19,7 +25,7 @@
     "src/*"
   ],
   "scripts": {
-    "build": "vite build",
+    "build": "vite build && node ./build.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -29,12 +35,13 @@
     "element-plus": "^2.6.1",
     "unocss": "^0.58.6",
     "vue": "^3.4.21",
-    "wanbin-element-plus-crud": "workspace:1.0.0-alpha.1"
+    "wanbin-element-plus-crud": "workspace:1.0.0-alpha.5"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.8.1",
     "@vitejs/plugin-vue": "^5.0.4",
     "eslint": "^8.57.0",
+    "fs-extra": "^11.2.0",
     "unplugin-vue-components": "^0.26.0",
     "vite": "^5.1.5",
     "vite-plugin-style-import": "^2.0.0"

@@ -4,6 +4,8 @@
 - 传入后端接口完整url [使用](#使用)
 
 ## 使用
+该组件仅支持`vue3+element-plus`项目使用;
+使用前请确认项目已经成功安装了 `vue` `element-plus` `@element-plus/icons-vue`
 
 ### 安装
 

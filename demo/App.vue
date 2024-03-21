@@ -1,8 +1,6 @@
 <script setup>
 import Crud, { BImage } from 'wanbin-element-plus-crud'
 import { ElButton } from 'element-plus'
-
-import 'element-plus/es/components/button/style/css'
 </script>
 
 <template>
