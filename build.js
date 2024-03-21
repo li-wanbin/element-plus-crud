@@ -18,7 +18,7 @@ const distPackageJson = {
   homepage: srcPackageJson.homepage,
   repository: srcPackageJson.repository,
   bugs: srcPackageJson.bugs,
-  style: './index.css',
+  style: './style.css',
   dependencies: {}, // 如果有运行时依赖项，这里列出它们
 }
 
