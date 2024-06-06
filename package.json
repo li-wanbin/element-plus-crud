@@ -1,7 +1,7 @@
 {
   "name": "wanbin-element-plus-crud",
   "type": "module",
-  "version": "1.0.0-alpha.6",
+  "version": "1.0.0-alpha.7",
   "description": "一个基于element-plus二次封装的表格增删改查组件",
   "author": "wanbin",
   "license": "ISC",
