@@ -1,7 +1,6 @@
 <script setup>
 import { computed } from 'vue'
 import { ElImage } from 'element-plus'
-import 'element-plus/es/components/image/style/css'
 
 const props = defineProps({
   url: {

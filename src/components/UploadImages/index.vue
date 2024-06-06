@@ -5,11 +5,6 @@ import { ElIcon, ElMessage, ElNotification, ElUpload } from 'element-plus'
 import { useFullLoading } from '../composables'
 import Thumbnail from './Thumbnail.vue'
 
-import 'element-plus/es/components/icon/style/css'
-import 'element-plus/es/components/message/style/css'
-import 'element-plus/es/components/notification/style/css'
-import 'element-plus/es/components/upload/style/css'
-
 const props = defineProps({
   modelValue: [Array, String, Object],
   noUrl: {
