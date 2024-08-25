@@ -2,7 +2,7 @@ import Crud from './components/Crud/index.vue'
 import BImage from './components/BImage/index.vue'
 import UploadImages from './components/UploadImages/index.vue'
 
-import 'uno.css'
+import 'virtual:uno.css'
 
 export {
   Crud,

@@ -1,5 +1,6 @@
 {
   "name": "element-plus-crud-demo",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "author": "",

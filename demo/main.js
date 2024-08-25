@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import 'uno.css'
+import 'virtual:uno.css'
 
 // import 'element-plus/es/components/table/style/css'
 // import 'element-plus/es/components/table-column/style/css'
